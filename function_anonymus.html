@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+    <script>
+        var factorial = function fact(n){
+            var f=1;
+            for(var i=1;i<=n;i++)
+            {
+                f=f*i;
+            }
+            return f;
+        };
+        var factorial2 = function (n){
+            var f=1;
+            for(var i=1;i<=n;i++)
+            {
+                f=f*i;
+            }
+            return f;
+        };
+        document.write(factorial(5));
+        // document.write(factorial);
+        document.write(factorial2(5));
+        document.write(factorial2);
+        console.log(factorial(10));
+        console.log(factorial2);
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
